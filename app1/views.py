@@ -11,5 +11,5 @@ def user_logiin(request):
     return HttpResponse('跳转到项目首页')
 
 def test_dev(request):
-    pri
-    return HttpRes
+    print('dev')
+    return HttpResponse('dev')
